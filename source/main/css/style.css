@@ -1,0 +1,12 @@
+/* body
+{
+    background: linear-gradient(black 0%, #b97bdd 40%, whitesmoke 30%);
+} */
+.navbar
+{
+    z-index: 9999;
+    /* background: linear-gradient(#c195fc, #4f302a, #c0edff); */
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #f7ace0 0%, #b97bdd 74%);
+
+}

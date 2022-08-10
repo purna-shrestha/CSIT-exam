@@ -1,0 +1,440 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px)
+{
+    .container .face
+{
+    position: relative;
+    width: 277px;
+    height: 277px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 37px;
+    background: linear-gradient(180deg, #0321a1, #ffcd00);
+}
+.container .face:hover
+{
+    background: linear-gradient(180deg, #ffcd00, #ffcd00);
+}
+.container .face:before
+{
+    content: '';
+    position: absolute;
+    transition: 0.5s;
+    top: 194px;
+    width: 138px;
+    height: 18.5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #03062d;   
+}
+.container .face:hover::before
+{
+    top: 166px;
+    width: 139px;
+    height: 65px;
+    border-bottom-left-radius: 65px;
+    border-bottom-right-radius: 65px;
+    background-color: #b57700;
+}
+.container .face .eyes
+{
+    position: relative;
+    top: -37px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .face .eyes .eye
+{
+    position: relative;
+    width: 74px;
+    height: 74px;
+    display: block;
+    margin: 0 14px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.container .face .eyes .eye:before
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 23px;
+    transform: translate(-50%, -50%);
+    width: 37px;
+    height: 37px;
+    background-color: #333;
+    border-radius: 50%;
+}
+.container h2
+{
+    position: absolute;
+    top: initial ;
+    bottom: 69px;
+    font-size: 1.8em;
+    color: #fff;
+}
+}
+/* {
+    .face
+    {
+        position: relative;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        background-color: #ffcd00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .face::before
+    {
+        content: '';
+        position: absolute;
+        top: 126px;
+        width: 90px;
+        height: 12px;
+        background-color: #b57700;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        transition: 0.5s;
+    }
+    .face:hover::before
+    {
+        top: 108px;
+        width: 90px;
+        height: 42px;
+        background: #b57700;
+        border-bottom-left-radius: 42px;
+        border-bottom-right-radius: 42px;
+    }
+    .eyes
+    {
+        position: relative;
+        top: -24px;
+        display: flex;
+    }
+    .eyes .eye
+    {
+        position: relative;
+        width: 48px;
+        height: 48px;
+        display: block;
+        background-color: #fff;
+        border-radius: 50%;
+        margin: 0 9px;
+    }
+    .eyes .eye::before
+    {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        transform: translate(-50%,-50%);
+        width:24px;
+        height: 24px;
+        background-color: #333;
+        border-radius: 50%;
+    }
+    } */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px)
+{
+    .container .face
+{
+    position: relative;
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 48px;
+    background: linear-gradient(180deg, #0321a1, #ffcd00);
+}
+.container .face:hover
+{
+    background: linear-gradient(180deg, #ffcd00, #ffcd00);
+}
+.container .face:before
+{
+    content: '';
+    position: absolute;
+    transition: 0.5s;
+    top: 252px;
+    width: 180px;
+    height: 24px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #03062d;   
+}
+.container .face:hover::before
+{
+    top: 216px;
+    width: 180px;
+    height: 84px;
+    border-bottom-left-radius: 84px;
+    border-bottom-right-radius: 84px;
+    background-color: #b57700;
+}
+.container .face .eyes
+{
+    position: relative;
+    top: -48px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .face .eyes .eye
+{
+    position: relative;
+    width: 96px;
+    height: 96px;
+    display: block;
+    margin: 0 18px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.container .face .eyes .eye:before
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translate(-50%, -50%);
+    width: 48px;
+    height: 48px;
+    background-color: #333;
+    border-radius: 50%;
+}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .container
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.container .face
+{
+    position: relative;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: #ffcd00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 60px;
+}
+.container .face:hover
+{
+    background: linear-gradient(180deg, #f44336, #f44336, #ffcd00);
+}
+.container .face:before
+{
+    content: '';
+    position: absolute;
+    top: 270px;
+    width: 225px;
+    height: 105px;
+    border-bottom-left-radius: 105px;
+    border-bottom-right-radius: 105px;
+    background-color: #b57700;
+    transition: 0.5s;
+}
+.container .face:hover::before
+{
+    top: 315px;
+    width: 225px;
+    height: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #9d0b00;
+}
+.container .face .eyes
+{
+    position: relative;
+    top: -60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .face .eyes .eye
+{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 0 22.5px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.container .face .eyes .eye::before
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 37.5px;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background-color: #333;
+    border-radius: 50%;
+}
+.container h2
+{
+    position: absolute;
+    top: initial ;
+    bottom: 112.5px;
+    font-size: 3em;
+    color: #fff;
+}
+} 
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    .container .face
+    {
+        position: relative;
+        width: 576px;
+        height: 576px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 77px;
+        background: linear-gradient(180deg, #0321a1, #ffcd00);
+    }
+    .container .face:hover
+    {
+        background: linear-gradient(180deg, #ffcd00, #ffcd00);
+    }
+    .container .face:before
+    {
+        content: '';
+        position: absolute;
+        transition: 0.5s;
+        top: 403px;
+        width: 288px;
+        height: 38px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        background-color: #03062d;   
+    }
+    .container .face:hover::before
+    {
+        top: 345px;
+        width: 288px;
+        height: 134px;
+        border-bottom-left-radius: 134px;
+        border-bottom-right-radius: 134px;
+        background-color: #b57700;
+    }
+    .container .face .eyes
+    {
+        position: relative;
+        top: -77px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container .face .eyes .eye
+    {
+        position: relative;
+        width: 154px;
+        height: 154px;
+        display: block;
+        margin: 0 29px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    .container .face .eyes .eye:before
+    {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 48px;
+        transform: translate(-50%, -50%);
+        width: 77px;
+        height: 77px;
+        background-color: #333;
+        border-radius: 50%;
+    }
+}
+    
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px)
+{
+    .container .face
+    {
+        position: relative;
+        width: 576px;
+        height: 576px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 77px;
+        background: linear-gradient(180deg, #0321a1, #ffcd00);
+    }
+    .container .face:hover
+    {
+        background: linear-gradient(180deg, #ffcd00, #ffcd00);
+    }
+    .container .face:before
+    {
+        content: '';
+        position: absolute;
+        transition: 0.5s;
+        top: 403px;
+        width: 288px;
+        height: 38px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        background-color: #03062d;   
+    }
+    .container .face:hover::before
+    {
+        top: 345px;
+        width: 288px;
+        height: 134px;
+        border-bottom-left-radius: 134px;
+        border-bottom-right-radius: 134px;
+        background-color: #b57700;
+    }
+    .container .face .eyes
+    {
+        position: relative;
+        top: -77px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container .face .eyes .eye
+    {
+        position: relative;
+        width: 154px;
+        height: 154px;
+        display: block;
+        margin: 0 29px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    .container .face .eyes .eye:before
+    {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 48px;
+        transform: translate(-50%, -50%);
+        width: 77px;
+        height: 77px;
+        background-color: #333;
+        border-radius: 50%;
+    }
+}
